@@ -1,8 +1,8 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router'
+import { HashRouter, Routes, Route, Link } from 'react-router'
 
 export const App = () => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <div className='app-container'>
                 <header className='header'>
                     <Link to='/' className='logo'>Городской квартал</Link>
@@ -31,7 +31,7 @@ export const App = () => {
                     </Routes>
                 </main>
             </div>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
