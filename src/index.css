@@ -44,6 +44,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 1.5rem;
     padding: 1rem 2rem;
     background-color: transparent;
 }
@@ -73,11 +74,10 @@ a {
 }
 
 .main-content {
-    flex: 1;
-    padding: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
     width: 100%;
+    max-width: 1200px;
+    padding: 2rem;
+    margin: 0 auto;
 }
 
 .page-header {
@@ -105,14 +105,6 @@ a {
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
-    transition: transform 0.2s, box-shadow 0.2s;
-    border: 1px solid transparent;
-}
-
-a.card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.05);
 }
 
 .card-header {
@@ -136,11 +128,6 @@ a.card:hover {
 .card-body h4 {
     font-size: 1.1rem;
     margin-bottom: 0.5rem;
-}
-
-.small-text {
-    font-size: 0.85rem !important;
-    margin-top: 0.5rem;
 }
 
 .card-footer {
